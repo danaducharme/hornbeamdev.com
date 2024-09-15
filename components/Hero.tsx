@@ -161,7 +161,7 @@ export function Hero() {
 								<ul className="space-y-2">
 									<li className="flex items-center">
 										<Briefcase className="h-5 w-5 text-blue-600 mr-2"/>
-										<span>25+ years in healthcare industry leadership experience</span>
+										<span>25+ years of leadership experience</span>
 									</li>
 									<li className="flex items-center">
 										<LightBulbIcon className="h-5 w-5 text-blue-600 mr-2"/>

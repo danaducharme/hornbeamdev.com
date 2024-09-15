@@ -12,9 +12,9 @@ const services = [
 	{
 		name: 'Deal Benchmarking & Deal Sheet Summaries', description: <>
 			In-depth benchmarking analysis for informed decision-making and deal sheet summaries (examples include: <a
-			href="/deal-summaries/1.pdf" target="_blank" className="text-blue-500 underline">1</a>, <a
-			href="/deal-summaries/2.pdf" target="_blank" className="text-blue-500 underline">2</a>, <a
-			href="/deal-summaries/3.pdf" target="_blank" className="text-blue-500 underline">3</a>).
+			href="/deal-summaries/ImmuNext & Lilly Mar 27 2019.pdf" target="_blank" className="text-blue-500 underline">1</a>, <a
+			href="/deal-summaries/Affibody & Alexion Mar 20 2019.pdf" target="_blank" className="text-blue-500 underline">2</a>, <a
+			href="/deal-summaries/Voyager and AbbVie Feb 22 2019.pdf" target="_blank" className="text-blue-500 underline">3</a>).
 		</>, icon: Search
 	},
 	{

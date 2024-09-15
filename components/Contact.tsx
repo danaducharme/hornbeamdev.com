@@ -1,6 +1,6 @@
 'use client'
 
-import {useState, useEffect, useCallback} from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import ReactDOM from 'react-dom';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -21,7 +21,7 @@ const schema = z.object({
 	subject: z.string().optional(),
 	company: z.string().min(1, "Company is required"),
 	message: z.string().min(1, "Message is required"),
-})
+});
 
 type FormData = z.infer<typeof schema>;
 
@@ -30,7 +30,7 @@ export function Contact() {
 		register,
 		handleSubmit,
 		formState: { errors },
-		reset
+		reset,
 	} = useForm<FormData>({
 		resolver: zodResolver(schema),
 	});
@@ -38,6 +38,7 @@ export function Contact() {
 	const [loading, setLoading] = useState(false);
 	const [windowDimension, setWindowDimension] = useState({ width: 0, height: 0 });
 	const [showConfetti, setShowConfetti] = useState(false);
+	const [runConfetti, setRunConfetti] = useState(false); // Control confetti
 
 	const detectSize = useCallback(() => {
 		setWindowDimension({ width: window.innerWidth, height: window.innerHeight });
@@ -45,7 +46,6 @@ export function Contact() {
 
 	useEffect(() => {
 		detectSize(); // Call it once to set initial size
-
 		window.addEventListener('resize', detectSize); // Add event listener for resize
 		return () => {
 			window.removeEventListener('resize', detectSize); // Clean up on unmount
@@ -53,11 +53,12 @@ export function Contact() {
 	}, [detectSize]); // detectSize is a stable dependency now due to useCallback
 
 	const triggerConfetti = () => {
-		// Trigger confetti for a set duration to make sure it's visible
 		setShowConfetti(true);
-		setTimeout(() => {
-			setShowConfetti(false);
-		}, 3000); // Show confetti for 3 seconds
+		setRunConfetti(true); // Start running confetti
+	};
+
+	const stopConfetti = () => {
+		setRunConfetti(false); // Stop confetti
 	};
 
 	const onSubmit = async (data: FormData) => {
@@ -156,8 +157,7 @@ export function Contact() {
 										placeholder="john@example.com"
 										className="transition-all duration-300 focus:ring-2 focus:ring-blue-500 bg-white"
 									/>
-									{errors.email &&
-										<p className="text-red-500 text-sm mt-1">{errors.email.message}</p>}
+									{errors.email && <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>}
 								</div>
 							</div>
 							<div className="space-y-2">
@@ -194,11 +194,13 @@ export function Contact() {
 									placeholder="How can we help you?"
 									className="min-h-[100px] transition-all duration-300 focus:ring-2 focus:ring-blue-500 bg-white"
 								/>
-								{errors.message &&
-									<p className="text-red-500 text-sm mt-1">{errors.message.message}</p>}
+								{errors.message && <p className="text-red-500 text-sm mt-1">{errors.message.message}</p>}
 							</div>
-							<Button type="submit" disabled={loading}
-									className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-colors duration-300">
+							<Button
+								type="submit"
+								disabled={loading}
+								className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-colors duration-300"
+							>
 								{loading ? "Sending..." : "Send Message"}
 							</Button>
 						</form>
@@ -214,6 +216,8 @@ export function Contact() {
 						height={windowDimension.height}
 						recycle={false}
 						numberOfPieces={300}
+						run={runConfetti} // Control confetti run
+						onConfettiComplete={stopConfetti} // Stop confetti when done
 						initialVelocityY={10}
 						style={{ zIndex: 9999, position: 'fixed', top: 0 }}
 					/>,

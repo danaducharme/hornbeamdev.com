@@ -213,7 +213,7 @@ export function Hero() {
 											<h3 className="font-semibold text-gray-800">Global Reach</h3>
 										</div>
 										<p className="text-sm text-gray-600">
-											Expertise in cross-border transactions, including deals involving China, examples
+											Expertise in cross-border transactions, including deals involving China (examples
 											include:{' '}
 											<a href="/deal-summaries/Assmbly and BeiGene Feb 14 2023.pdf" className="text-blue-500 underline">1</a>,
 											{' '}
@@ -221,7 +221,7 @@ export function Hero() {
 											{' '}
 											<a href="/deal-summaries/Elevation and CSPC June 2022.pdf" className="text-blue-500 underline">3</a>,
 											{' and '}
-											<a href="/deal-summaries/Leap TX and BeiGene Jan 2020.pdf" className="text-blue-500 underline">4</a>.
+											<a href="/deal-summaries/Leap TX and BeiGene Jan 2020.pdf" className="text-blue-500 underline">4</a>).
 										</p>
 									</div>
 									<div className="bg-blue-50 p-4 rounded-lg">

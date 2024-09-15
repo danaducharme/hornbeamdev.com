@@ -8,6 +8,7 @@ import {Results} from "@/components/Results";
 import {Contact} from "@/components/Contact";
 import {EngagementOptions} from "@/components/EngagementOptions";
 import Footer from "@/components/Footer";
+import ScrollToTopButton from "@/components/ui/ScrollToTopButton";
 
 export default function Page() {
 
@@ -23,6 +24,7 @@ export default function Page() {
 				<Contact/>
 			</main>
 			<Footer />
+			<ScrollToTopButton />
 		</div>
 	);
 }

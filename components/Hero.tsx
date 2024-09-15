@@ -195,8 +195,7 @@ export function Hero() {
 								<p className="text-gray-700 mb-6">
 									JEA BizDev Consulting offers strategic advisory services
 									specializing in identifying, structuring, negotiating, and executing partnerships
-									across North
-									America, Europe, and Asia.
+									across North America, Europe, and Asia.
 								</p>
 								<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 									<div className="bg-blue-50 p-4 rounded-lg">
@@ -206,7 +205,7 @@ export function Hero() {
 										</div>
 										<p className="text-sm text-gray-600">Business development and partnering
 											activities tailored to your needs with a strong focus on in- and
-											out-licensing</p>
+											out-licensing.</p>
 									</div>
 									<div className="bg-blue-50 p-4 rounded-lg">
 										<div className="flex items-center mb-3">
@@ -214,7 +213,7 @@ export function Hero() {
 											<h3 className="font-semibold text-gray-800">Global Reach</h3>
 										</div>
 										<p className="text-sm text-gray-600">Expertise in cross-border transactions,
-											including deals with China</p>
+											including deals involving China.</p>
 									</div>
 									<div className="bg-blue-50 p-4 rounded-lg">
 										<div className="flex items-center mb-3">
@@ -222,7 +221,7 @@ export function Hero() {
 											<h3 className="font-semibold text-gray-800">Diverse Deal Structures</h3>
 										</div>
 										<p className="text-sm text-gray-600">Platform technology agreements,
-											collaborations, co-development alliances, asset acquisitions, and more</p>
+											collaborations, co-development alliances, asset acquisitions, and more.</p>
 									</div>
 									<div className="bg-blue-50 p-4 rounded-lg">
 										<div className="flex items-center mb-3">
@@ -230,7 +229,7 @@ export function Hero() {
 											<h3 className="font-semibold text-gray-800">Value Creation</h3>
 										</div>
 										<p className="text-sm text-gray-600">Proven track record of high-value
-											partnerships and strategic initiatives</p>
+											partnerships and strategic initiatives.</p>
 									</div>
 								</div>
 							</CardContent>

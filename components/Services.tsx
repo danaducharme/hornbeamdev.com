@@ -6,7 +6,7 @@ import {Element} from "react-scroll";
 const services = [
 	{
 		name: 'Strategic Guidance',
-		description: 'Expert advice to navigate strategic initiatives and business development activities',
+		description: 'Expert advice to navigate strategic initiatives and business development activities.',
 		icon: Briefcase
 	},
 	{
@@ -14,42 +14,42 @@ const services = [
 			In-depth benchmarking analysis for informed decision-making and deal sheet summaries (examples include: <a
 			href="/deal-summaries/1.pdf" target="_blank" className="text-blue-500 underline">1</a>, <a
 			href="/deal-summaries/2.pdf" target="_blank" className="text-blue-500 underline">2</a>, <a
-			href="/deal-summaries/3.pdf" target="_blank" className="text-blue-500 underline">3</a>)
+			href="/deal-summaries/3.pdf" target="_blank" className="text-blue-500 underline">3</a>).
 		</>, icon: Search
 	},
 	{
 		name: 'Partner Identification',
-		description: 'Connecting you with ideal collaborators in the industry',
+		description: 'Connecting you with ideal collaborators in the industry.',
 		icon: Users
 	},
 	{
 		name: 'Industry Connections & Outreach',
-		description: 'Leveraging our vast network for your success',
+		description: 'Leveraging our vast network for your success.',
 		icon: Network
 	},
 	{
 		name: 'Business Development Operations Support',
-		description: 'Streamlining your processes for optimal efficiency',
+		description: 'Streamlining your processes for optimal efficiency.',
 		icon: Building
 	},
 	{
 		name: 'Due Diligence Management',
-		description: 'Lead and support thorough evaluation for potential partnerships',
+		description: 'Lead and support thorough evaluation for potential partnerships.',
 		icon: FileCheck
 	},
 	{
 		name: 'Deal Structuring Advice',
-		description: 'Crafting optimal terms for successful collaborations',
+		description: 'Crafting optimal terms for successful collaborations.',
 		icon: FileText
 	},
 	{
 		name: 'Contract Negotiation & Closure',
-		description: 'Securing favorable agreements and seamless integration',
+		description: 'Securing favorable agreements and seamless integration.',
 		icon: Handshake
 	},
 	{
 		name: 'Full Partnering Process Oversight',
-		description: 'Comprehensive end-to-end management of your partnership activity',
+		description: 'Comprehensive end-to-end management of your partnership activities.',
 		icon: PieChart
 	},
 ];

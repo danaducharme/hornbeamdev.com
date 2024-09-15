@@ -40,7 +40,7 @@ export function CoreValues() {
 					<h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-blue-600 mb-4">
 						Our Core Values
 					</h2>
-					<p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
+					<p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto">
 						Driving innovation through strategic partnerships
 					</p>
 				</motion.div>

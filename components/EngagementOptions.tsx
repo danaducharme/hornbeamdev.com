@@ -47,7 +47,7 @@ export function EngagementOptions() {
 						<h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-blue-600 mb-4">
 							Flexible Engagement Options
 						</h2>
-						<p className="text-zinc-700 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-zinc-400">
+						<p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-zinc-400">
 							We offer flexible engagement options to meet your specific needs
 							and project requirements. Choose the model that best suits your
 							consulting needs.
@@ -76,7 +76,7 @@ export function EngagementOptions() {
 							<EngagementCard
 								icon={<BarChart className="h-10 w-10 text-blue-600" />}
 								title="Blended Approach"
-								description="Combine fixed fees with performance-based incentives, aligning our success with your project outcomes."
+								description="Combine fixed fees with performance-based incentives, aligning our success."
 							/>
 						</motion.div>
 					</div>

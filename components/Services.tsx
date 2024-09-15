@@ -26,7 +26,7 @@ export function Services() {
 					transition={{duration: 0.8}}
 				>
 					<h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-blue-600 mb-4 text-center">Professional Services</h2>
-					<p className="text-xl text-gray-600 text-center mb-16">
+					<p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center mb-16">
 						We offer a wide range of services to support your business needs.
 					</p>
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -27,7 +27,7 @@ export function Results() {
 					Proven Results
 				</motion.h2>
 				<motion.p
-					className="text-lg text-gray-600 text-center mb-16"
+					className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto mb-16 text-center"
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ delay: 0.4, duration: 0.8 }}

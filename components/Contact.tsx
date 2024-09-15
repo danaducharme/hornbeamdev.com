@@ -1,17 +1,18 @@
 'use client'
 
-import { useState } from 'react'
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { motion } from 'framer-motion'
-import { Element } from 'react-scroll'
-import { useForm } from 'react-hook-form'
-import { z } from 'zod'
-import { zodResolver } from '@hookform/resolvers/zod'
-import { toast, Toaster } from "react-hot-toast"
-import confetti from "canvas-confetti";
+import {useState, useEffect, useCallback} from 'react';
+import ReactDOM from 'react-dom';
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { motion } from 'framer-motion';
+import { Element } from 'react-scroll';
+import { useForm } from 'react-hook-form';
+import { z } from 'zod';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { toast, Toaster } from "react-hot-toast";
+import Confetti from 'react-confetti';
 
 // Zod schema for form validation
 const schema = z.object({
@@ -35,6 +36,29 @@ export function Contact() {
 	});
 
 	const [loading, setLoading] = useState(false);
+	const [windowDimension, setWindowDimension] = useState({ width: 0, height: 0 });
+	const [showConfetti, setShowConfetti] = useState(false);
+
+	const detectSize = useCallback(() => {
+		setWindowDimension({ width: window.innerWidth, height: window.innerHeight });
+	}, []);
+
+	useEffect(() => {
+		detectSize(); // Call it once to set initial size
+
+		window.addEventListener('resize', detectSize); // Add event listener for resize
+		return () => {
+			window.removeEventListener('resize', detectSize); // Clean up on unmount
+		};
+	}, [detectSize]); // detectSize is a stable dependency now due to useCallback
+
+	const triggerConfetti = () => {
+		// Trigger confetti for a set duration to make sure it's visible
+		setShowConfetti(true);
+		setTimeout(() => {
+			setShowConfetti(false);
+		}, 3000); // Show confetti for 3 seconds
+	};
 
 	const onSubmit = async (data: FormData) => {
 		setLoading(true);
@@ -53,14 +77,7 @@ export function Contact() {
 				});
 
 				// Trigger confetti effect on success
-				confetti({
-					particleCount: 1000,
-					spread: 500,
-					origin: { y: 1, x: 0.5 },
-					startVelocity: 30,
-					gravity: 0.2,
-					ticks: 120,
-				});
+				triggerConfetti();
 
 				reset();
 			} else {
@@ -188,6 +205,21 @@ export function Contact() {
 					</div>
 				</div>
 			</motion.div>
+
+			{/* Confetti effect */}
+			{showConfetti && (
+				ReactDOM.createPortal(
+					<Confetti
+						width={windowDimension.width}
+						height={windowDimension.height}
+						recycle={false}
+						numberOfPieces={300}
+						initialVelocityY={10}
+						style={{ zIndex: 9999, position: 'fixed', top: 0 }}
+					/>,
+					document.body
+				)
+			)}
 		</Element>
 	);
 }

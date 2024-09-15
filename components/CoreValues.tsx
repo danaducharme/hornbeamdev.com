@@ -8,12 +8,12 @@ const coreValues = [
 	{
 		icon: <Dna className="w-8 h-8 text-blue-600" />,
 		title: "Scientific Excellence",
-		description: "We leverage cutting-edge biotech knowledge to drive innovative partnerships."
+		description: "We leverage cutting-edge knowledge to drive innovative partnerships."
 	},
 	{
 		icon: <Handshake className="w-8 h-8 text-blue-600" />,
 		title: "Strategic Collaboration",
-		description: "We foster meaningful connections that lead to groundbreaking deals in the biotech industry."
+		description: "We foster meaningful connections that lead to groundbreaking deals."
 	},
 	{
 		icon: <Lightbulb className="w-8 h-8 text-blue-600" />,
@@ -23,7 +23,7 @@ const coreValues = [
 	{
 		icon: <Target className="w-8 h-8 text-blue-600" />,
 		title: "Results-Oriented Approach",
-		description: "We focus on delivering tangible outcomes that propel our clients' success in the biotech market."
+		description: "We focus on delivering tangible outcomes that propel our clients' success in the industry."
 	}
 ];
 
@@ -41,7 +41,7 @@ export function CoreValues() {
 						Our Core Values
 					</h2>
 					<p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
-						Driving biotech innovation through strategic partnerships
+						Driving innovation through strategic partnerships
 					</p>
 				</motion.div>
 				<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">

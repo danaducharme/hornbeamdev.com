@@ -42,31 +42,32 @@ export function EngagementOptions() {
 				animate="visible"
 				variants={containerVariants}
 			>
-				<div className="flex flex-col lg:flex-row gap-12">
-					<motion.div className="lg:w-1/3 space-y-4" variants={itemVariants}>
-						<h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-blue-600 mb-4">
+				<div className="flex flex-col gap-12 justify-center items-center text-center">
+					<motion.div className="space-y-4" variants={itemVariants}>
+						<h2 className="text-3xl font-bold tracking-tighter md:text-5xl text-blue-600 mb-4">
 							Flexible Engagement Options
 						</h2>
 						<p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-zinc-400">
 							We offer flexible engagement options to meet your specific needs
-							and project requirements. Choose the model that best suits your
-							consulting needs.
+							and project requirements.
+							<br />
+							Choose the model that best suits your consulting needs.
 						</p>
 					</motion.div>
-					<div className="lg:w-2/3">
+					<div className="">
 						<motion.div
-							className="grid grid-cols-1 md:grid-cols-2 gap-8"
+							className="grid lg:grid-cols-4 md:grid-cols-1 gap-8"
 							variants={containerVariants}
 						>
 							<EngagementCard
 								icon={<Clock className="h-10 w-10 text-blue-600" />}
 								title="Hourly Rates"
-								description="Pay only for the time we spend on your project, ideal for short-term or variable scope engagements."
+								description="Pay only for the time we spend on your project, ideal for variable scope engagements."
 							/>
 							<EngagementCard
 								icon={<Calendar className="h-10 w-10 text-blue-600" />}
 								title="Retainer Model"
-								description="Secure our expertise for a set number of hours each month, ensuring consistent support and priority service."
+								description="Secure our expertise for a set number of hours each month, ensuring priority service."
 							/>
 							<EngagementCard
 								icon={<FileText className="h-10 w-10 text-blue-600" />}
@@ -90,7 +91,7 @@ export function EngagementOptions() {
 const EngagementCard: React.FC<EngagementCardProps> = ({ icon, title, description }) => {
 	return (
 		<motion.div
-			className="flex flex-col space-y-4 p-6 bg-white border border-blue-100 rounded-lg shadow-sm hover:shadow-md"
+			className="flex flex-col justify-center items-center space-y-4 p-6 bg-white border border-blue-100 rounded-lg shadow-sm hover:shadow-md"
 			variants={{
 				hidden: { scale: 0.8, opacity: 0 },
 				visible: { scale: 1, opacity: 1 },
@@ -99,8 +100,8 @@ const EngagementCard: React.FC<EngagementCardProps> = ({ icon, title, descriptio
 			whileHover={{ scale: 1.05 }}
 		>
 			{icon}
-			<h3 className="text-xl font-semibold text-blue-600">{title}</h3>
-			<p className="text-zinc-700">{description}</p>
+			<h3 className="text-xl font-semibold text-black">{title}</h3>
+			<p className="text-gray-600">{description}</p>
 		</motion.div>
 	);
 };

@@ -103,7 +103,7 @@ export function Hero() {
 								<div>
 									<p className="text-sm font-semibold text-gray-800">Industry Connections &
 										Outreach</p>
-									<p className="text-xs text-gray-500">Leveraging our network for your success</p>
+									<p className="text-xs text-gray-500">Leveraging our vast network for your success</p>
 								</div>
 							</div>
 						</motion.div>

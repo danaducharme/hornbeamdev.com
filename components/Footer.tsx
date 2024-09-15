@@ -8,7 +8,7 @@ export default function Footer() {
 		<footer className="bg-blue-50 text-black py-4">
 			<div className="container mx-auto px-5 flex flex-row justify-between items-center">
 				<div className="text-sm">
-					&copy; {currentYear} JEA BizDev Consulting, LLC - All Rights Reserved.
+					&copy; {currentYear} JEA BizDev Consulting, LLC.
 				</div>
 				<div className="flex space-x-4">
 					<Link href="https://www.linkedin.com/in/john-a-6182668/"

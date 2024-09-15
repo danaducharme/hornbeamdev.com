@@ -32,7 +32,7 @@ export function Results() {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ delay: 0.4, duration: 0.8 }}
 				>
-					We have a track record of delivering successful deals in the healthcare industry.
+					We have a track record of establishing successful partnerships in the healthcare industry.
 				</motion.p>
 
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-8">

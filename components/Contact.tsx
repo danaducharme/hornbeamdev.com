@@ -124,7 +124,7 @@ export function Contact() {
 							Let’s Partner Together
 						</h2>
 						<p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-							We are here to empower you as you navigate the complexities of the partnering process,
+							We are here to help you as you navigate the complexities of the partnering process,
 							providing the guidance you need to turn challenges into opportunities.
 						</p>
 					</div>

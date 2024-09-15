@@ -39,7 +39,7 @@ export function Hero() {
 						transition={{duration: 0.8}}
 					>
 						<h1 className="text-5xl font-extrabold text-gray-900 leading-tight mb-6">
-							We Fast Track Deals for{' '}
+							We optimize business development success for{' '}
 							<span className="text-blue-600">
 								Biotech Companies.
                   			</span>

@@ -1,15 +1,10 @@
 'use client';
 
-import { Dna, Handshake, Lightbulb, Target } from 'lucide-react';
+import { Handshake, Lightbulb, Target } from 'lucide-react';
 import { motion } from 'framer-motion';
 import {Element} from "react-scroll";
 
 const coreValues = [
-	{
-		icon: <Dna className="w-8 h-8 text-blue-600" />,
-		title: "Scientific Excellence",
-		description: "We leverage cutting-edge knowledge to drive innovative partnerships."
-	},
 	{
 		icon: <Handshake className="w-8 h-8 text-blue-600" />,
 		title: "Strategic Collaboration",
@@ -44,7 +39,7 @@ export function CoreValues() {
 						Driving innovation through strategic partnerships
 					</p>
 				</motion.div>
-				<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+				<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 					{coreValues.map((value, index) => (
 						<motion.div
 							key={index}

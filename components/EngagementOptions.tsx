@@ -48,8 +48,7 @@ export function EngagementOptions() {
 							Flexible Engagement Options
 						</h2>
 						<p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-zinc-400">
-							We offer flexible engagement options to meet your specific needs
-							and project requirements.
+							We offer flexible engagement options to meet your project requirements.
 							<br />
 							Choose the model that best suits your consulting needs.
 						</p>

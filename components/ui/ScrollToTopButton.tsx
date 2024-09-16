@@ -2,35 +2,49 @@
 
 import { useState, useEffect } from 'react'
 import { ArrowUp } from 'lucide-react'
-import {AnimatePresence, motion} from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 export default function ScrollToTopButton() {
-	const [isVisible, setIsVisible] = useState(false)
+	const [isVisible, setIsVisible] = useState(false);
+	const [isMobile, setIsMobile] = useState(false);
+
+	useEffect(() => {
+		const handleResize = () => {
+			// Check if the window width is less than or equal to 768 pixels
+			setIsMobile(window.innerWidth <= 768);
+		};
+
+		handleResize(); // Check on initial load
+		window.addEventListener('resize', handleResize);
+
+		return () => window.removeEventListener('resize', handleResize);
+	}, []);
 
 	useEffect(() => {
 		const toggleVisibility = () => {
 			// Show button when page is scrolled down 300px
 			if (window.scrollY > 300) {
-				setIsVisible(true)
+				setIsVisible(true);
 			} else {
-				setIsVisible(false)
+				setIsVisible(false);
 			}
-		}
+		};
 
-		window.addEventListener('scroll', toggleVisibility)
+		window.addEventListener('scroll', toggleVisibility);
 
-		return () => window.removeEventListener('scroll', toggleVisibility)
-	}, [])
+		return () => window.removeEventListener('scroll', toggleVisibility);
+	}, []);
 
 	const scrollToTop = () => {
 		window.scrollTo({
 			top: 0,
 			behavior: 'smooth'
-		})
-	}
+		});
+	};
 
-	if (!isVisible) {
-		return null
+	// Don't show the button if on mobile
+	if (!isVisible || isMobile) {
+		return null;
 	}
 
 	return (
@@ -51,5 +65,5 @@ export default function ScrollToTopButton() {
 				</motion.button>
 			)}
 		</AnimatePresence>
-	)
+	);
 }

@@ -11,6 +11,9 @@ export default function Footer() {
 					&copy; {currentYear} JEA BizDev Consulting, LLC.
 				</div>
 				<div className="flex space-x-4">
+					<a href="/Disclaimer.pdf" target="_blank" className="hover:text-blue-500 transition-colors">
+						Disclaimer
+					</a>
 					<Link href="https://www.linkedin.com/in/john-a-6182668/"
 						  className="hover:text-blue-500 transition-colors" target="_blank">
 						<Linkedin size={20}/>

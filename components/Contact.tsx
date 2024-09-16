@@ -203,13 +203,6 @@ export function Contact() {
 							>
 								{loading ? "Sending..." : "Send Message"}
 							</Button>
-							<p>
-								By submitting this form, I agree to the{" "}
-								<a href="/Privacy Policy.pdf" target="_blank" className="font-medium underline">
-									privacy policy
-								</a>
-								.
-							</p>
 						</form>
 					</div>
 				</div>

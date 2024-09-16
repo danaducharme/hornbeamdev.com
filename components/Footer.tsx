@@ -7,19 +7,19 @@ export default function Footer() {
 	return (
 		<footer className="bg-blue-50 text-black py-4">
 			<div className="container mx-auto px-5 flex flex-row justify-between items-center">
-				<div className="text-sm">
+				<div className="text-xs">
 					&copy; {currentYear} JEA BizDev Consulting, LLC.
 				</div>
 				<div className="flex space-x-4">
-					<a href="/Privacy Policy.pdf" target="_blank" className="hover:text-blue-500 transition-colors">
+					<a href="/Privacy Policy.pdf" target="_blank" className="hover:text-blue-500 transition-colors text-xs">
 						Privacy Policy
 					</a>
-					<a href="/Disclaimer.pdf" target="_blank" className="hover:text-blue-500 transition-colors">
+					<a href="/Disclaimer.pdf" target="_blank" className="hover:text-blue-500 transition-colors text-xs">
 						Disclaimer
 					</a>
 					<Link href="https://www.linkedin.com/in/john-a-6182668/"
-						  className="hover:text-blue-500 transition-colors" target="_blank">
-						<Linkedin size={20}/>
+						  className="hover:text-blue-500 transition-colors text-xs" target="_blank">
+						<Linkedin size={16}/>
 						<span className="sr-only">LinkedIn</span>
 					</Link>
 				</div>

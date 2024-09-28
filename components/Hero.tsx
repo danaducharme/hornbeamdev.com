@@ -156,15 +156,15 @@ export function Hero() {
 								</div>
 								<p className="text-gray-700 mb-4">
 									John is a seasoned executive with <strong>25+ years of experience</strong> in the
-									biotech and pharmaceutical industries, specializing in strategy and business
-									development. He has successfully <strong>executed 80+ partnerships</strong> across
-									multiple continents, resulting in <strong>over
-									$20 billion</strong> in transaction value. He has expertise across the entire
-									business development value chain, including strategy formulation, search and
-									evaluation, deal structuring, transaction negotiation, execution, and alliance
-									management.
+									biotech and pharma
+									industry, specializing in strategy and business development. He has successfully
+									<strong>executed 80+ partnerships</strong> across multiple continents, resulting
+									in <strong>over $20 billion</strong>{' '}
+									in transaction value. He has expertise across the entire BD value chain, including
+									strategy, search and evaluation, deal structuring, transaction negotiation, and
+									alliance management.
 								</p>
-								<ul className="space-y-2">
+								<ul className="space-y-2 text-sm">
 									<li className="flex items-center">
 										<LightBulbIcon className="h-5 w-5 text-blue-600 mr-2"/>
 										<span>Expertise in diverse deal structures</span>

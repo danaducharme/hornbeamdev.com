@@ -157,7 +157,7 @@ export function Hero() {
 								<p className="text-gray-700 mb-4">
 									John is a seasoned executive with <strong>25+ years of experience</strong> in the
 									biotech and pharma
-									industry, specializing in strategy and business development. He has successfully
+									industries, specializing in strategy and business development. He has successfully{' '}
 									<strong>executed 80+ partnerships</strong> across multiple continents, resulting
 									in <strong>over $20 billion</strong>{' '}
 									in transaction value. He has expertise across the entire BD value chain, including

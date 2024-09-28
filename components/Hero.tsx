@@ -58,7 +58,7 @@ export function Hero() {
 								Get in Touch
 								<motion.div
 									className="ml-2 h-5 w-5"
-									animate={{ x: [0, 5, 0] }}  // Animation moves right 5px and back
+									animate={{x: [0, 5, 0]}}  // Animation moves right 5px and back
 									transition={{
 										repeat: Infinity,
 										repeatType: "mirror",
@@ -66,7 +66,7 @@ export function Hero() {
 										ease: "easeInOut",
 									}}
 								>
-									<ArrowRight />
+									<ArrowRight/>
 								</motion.div>
 							</Link>
 							<Link
@@ -103,7 +103,8 @@ export function Hero() {
 								<div>
 									<p className="text-sm font-semibold text-gray-800">Industry Connections &
 										Outreach</p>
-									<p className="text-xs text-gray-500">Leveraging our vast network for your success</p>
+									<p className="text-xs text-gray-500">Leveraging our vast network for your
+										success</p>
 								</div>
 							</div>
 						</motion.div>
@@ -154,15 +155,16 @@ export function Hero() {
 									</div>
 								</div>
 								<p className="text-gray-700 mb-4">
-									John is a seasoned executive with 25+ years of experience leading business
-									development and strategic initiatives within the healthcare industry. He has
-									executed 80+ partnerships, collectively valued at over $20B.
+									John is a seasoned executive with <strong>25+ years of experience</strong> in the
+									biotech and pharmaceutical industries, specializing in strategy and business
+									development. He has successfully <strong>executed 80+ partnerships</strong> across
+									multiple continents, resulting in <strong>over
+									$20 billion</strong> in transaction value. He has expertise across the entire
+									business development value chain, including strategy formulation, search and
+									evaluation, deal structuring, transaction negotiation, execution, and alliance
+									management.
 								</p>
 								<ul className="space-y-2">
-									<li className="flex items-center">
-										<Briefcase className="h-5 w-5 text-blue-600 mr-2"/>
-										<span>25+ years of leadership experience</span>
-									</li>
 									<li className="flex items-center">
 										<LightBulbIcon className="h-5 w-5 text-blue-600 mr-2"/>
 										<span>Expertise in diverse deal structures</span>
@@ -213,15 +215,20 @@ export function Hero() {
 											<h3 className="font-semibold text-gray-800">Global Reach</h3>
 										</div>
 										<p className="text-sm text-gray-600">
-											Expertise in cross-border transactions, including deals involving China (examples
+											Expertise in cross-border transactions, including deals involving China
+											(examples
 											include:{' '}
-											<a href="/deal-summaries/Elevation and CSPC June 2022.pdf" className="text-blue-500 underline">1</a>,
+											<a href="/deal-summaries/Elevation and CSPC June 2022.pdf"
+											   className="text-blue-500 underline">1</a>,
 											{' '}
-											<a href="/deal-summaries/Corbus and CSPC Feb 14 2023.pdf" className="text-blue-500 underline">2</a>,
+											<a href="/deal-summaries/Corbus and CSPC Feb 14 2023.pdf"
+											   className="text-blue-500 underline">2</a>,
 											{' '}
-											<a href="/deal-summaries/Assembly and BeiGene Jul 20 2020.pdf" className="text-blue-500 underline">3</a>,
+											<a href="/deal-summaries/Assembly and BeiGene Jul 20 2020.pdf"
+											   className="text-blue-500 underline">3</a>,
 											{' and '}
-											<a href="/deal-summaries/Leap TX and BeiGene Jan 2020.pdf" className="text-blue-500 underline">4</a>).
+											<a href="/deal-summaries/Leap TX and BeiGene Jan 2020.pdf"
+											   className="text-blue-500 underline">4</a>).
 										</p>
 									</div>
 									<div className="bg-blue-50 p-4 rounded-lg">

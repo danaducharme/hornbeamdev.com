@@ -2,7 +2,7 @@
 
 import React from "react";
 import {motion} from "framer-motion";
-import {ArrowRight, Briefcase, FileText, Network} from "lucide-react";
+import {ArrowRight, FileText, Network} from "lucide-react";
 import {
 	CurrencyDollarIcon,
 	GlobeAltIcon,

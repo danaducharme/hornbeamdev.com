@@ -13,6 +13,8 @@ import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { toast, Toaster } from "react-hot-toast";
 import Confetti from 'react-confetti';
+import {Linkedin} from "lucide-react"
+import Link from "next/link"
 
 // Zod schema for form validation
 const schema = z.object({
@@ -122,12 +124,27 @@ export function Contact() {
 							</svg>
 						</div>
 						<h2 className="text-4xl font-bold tracking-tighter text-blue-600">
-							Let’s Partner Together
+							Let&apos;s Partner Together
 						</h2>
 						<p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
 							We are here to help you as you navigate the complexities of the partnering process,
 							providing the guidance you need to turn challenges into opportunities.
 						</p>
+                        <div className="space-y-4">
+                            <h3 className="text-xl font-semibold text-gray-800 mb-2">Want to connect?</h3>
+                            <Link
+                                href="https://www.linkedin.com/company/jea-bizdev-consulting-llc"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Button
+                                className="bg-[#0A66C2] hover:bg-[#004182] text-white transition-colors duration-200"
+                                >
+                                <Linkedin className="mr-2 h-5 w-5" />
+                                LinkedIn
+                                </Button>
+                            </Link>
+                        </div>
 					</div>
 					<div className="flex flex-col gap-4 sm:flex-row lg:flex-col lg:gap-6">
 						<form onSubmit={handleSubmit(onSubmit)} className="space-y-4 flex-1">

@@ -179,7 +179,7 @@ export function Hero() {
 									</li>
 									<li className="flex items-center">
 										<CurrencyDollarIcon className="h-5 w-5 text-blue-600 mr-2"/>
-										<span>Strategic advisor to biotech companies</span>
+										<span>Strategic advisor to biotech & biopharma companies</span>
 									</li>
 								</ul>
 							</CardContent>

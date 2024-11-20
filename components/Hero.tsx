@@ -46,7 +46,7 @@ export function Hero() {
 						</h1>
 						<p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-2xl">
 							Strategic advisory services for groundbreaking partnerships across North America, Europe,
-							and Asia.
+							and Asia with focus on cross-border deals involving China.
 						</p>
 						<div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
 							<Link
@@ -157,7 +157,8 @@ export function Hero() {
 								<p className="text-gray-700 mb-4">
 									John is a seasoned executive with <strong>25+ years of experience</strong> in the
 									biotech and pharma
-									industries, specializing in strategy and business development. He has successfully{' '}
+									industries, specializing in strategy and business development. He has
+									successfully{' '}
 									<strong>executed 80+ partnerships</strong> across multiple continents, resulting
 									in <strong>over $20 billion</strong>{' '}
 									in transaction value. He has expertise across the entire BD value chain, including

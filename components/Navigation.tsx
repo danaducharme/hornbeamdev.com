@@ -1,6 +1,6 @@
 'use client';
 
-import { Menu, X, Dna } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-scroll';
 
@@ -43,8 +43,33 @@ export default function Navigation() {
 				<div className="flex flex-col md:flex-row md:justify-between md:items-center">
 					<div className="flex items-center justify-between">
 						<div className="flex items-center">
-							<Dna className="h-8 w-8 text-blue-600 mr-2" />
-							<a href="/" className="text-2xl font-bold text-gray-800">
+							<svg width="36" height="34" viewBox="0 0 36 34" fill="none"
+								 xmlns="http://www.w3.org/2000/svg">
+								<circle cx="18" cy="17" r="17" fill="#2463EB"/>
+								<path d="M15 22.6667L17.25 24.7917" stroke="white" stroke-width="2"
+									  stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M21 11.3333L18.75 9.20825" stroke="white" stroke-width="2"
+									  stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M22.5 2.83325C19.803 5.66375 18.723 8.49284 18.2895 11.3233" stroke="white"
+									  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M24.75 14.875L26.25 16.2917" stroke="white" stroke-width="2"
+									  stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M25.5 8.49988L21.1635 4.4043" stroke="white" stroke-width="2"
+									  stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M3 21.25C13.0005 12.75 22.9995 21.25 33 12.75" stroke="white" stroke-width="2"
+									  stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M30 12.75L31.3365 14.0122" stroke="white" stroke-width="2"
+									  stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M4.66351 19.9878L6.00001 21.25" stroke="white" stroke-width="2"
+									  stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M9.75 17.7083L11.25 19.1249" stroke="white" stroke-width="2"
+									  stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M10.5 25.5L14.8365 29.5956" stroke="white" stroke-width="2"
+									  stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M13.5 31.1666C16.197 28.3361 17.277 25.507 17.7105 22.6765" stroke="white"
+									  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+							<a href="/" className="text-2xl font-bold text-gray-800 ml-2">
 								JEA BizDev Consulting
 							</a>
 						</div>
@@ -55,7 +80,7 @@ export default function Navigation() {
 								aria-label="toggle menu"
 								onClick={toggleMenu}
 							>
-								{isMenuOpen ? <X /> : <Menu />}
+								{isMenuOpen ? <X/> : <Menu/>}
 							</button>
 						</div>
 					</div>

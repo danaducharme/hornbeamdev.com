@@ -22,7 +22,7 @@ import {LinkedInLogoIcon} from "@radix-ui/react-icons";
 
 export function Hero() {
 	return (
-		<section className="relative bg-gradient-to-br from-gray-50 to-blue-50 pt-32 pb-24 sm:pb-32">
+		<section className="relative bg-gradient-to-br from-gray-50 to-blue-50 pt-36 pb-24 sm:pb-32">
 			<div className="absolute inset-0 overflow-hidden">
 				<svg className="absolute left-0 top-0 h-full w-full" xmlns="http://www.w3.org/2000/svg"
 					 viewBox="0 0 1440 320" preserveAspectRatio="none">

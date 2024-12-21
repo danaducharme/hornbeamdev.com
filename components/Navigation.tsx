@@ -1,9 +1,9 @@
 'use client';
 
 import { Menu, X, Dna, ExternalLink } from 'lucide-react';
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-scroll';
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 
 const navigation = [
 	{ name: 'Services', href: 'services' },
@@ -16,7 +16,8 @@ const navigation = [
 ];
 
 export default function Navigation() {
-	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
+	const [isScrolled, setIsScrolled] = useState(false);
 	const menuRef = useRef<HTMLDivElement>(null);
 
 	const toggleMenu = () => {
@@ -39,8 +40,22 @@ export default function Navigation() {
 		};
 	}, []);
 
+	useEffect(() => {
+		const handleScroll = () => {
+			setIsScrolled(window.scrollY > 25);
+		};
+		window.addEventListener('scroll', handleScroll);
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
+
 	return (
-		<header className="fixed top-0 left-0 right-0 z-50 bg-white bg-opacity-90 backdrop-blur-md shadow-md">
+		<header
+			className={`fixed top-0 left-0 right-0 z-50 transition-all ${
+				isScrolled ? 'bg-white bg-opacity-90 backdrop-blur-md shadow-md' : ''
+			}`}
+		>
 			<nav className="container mx-auto px-4 py-4 lg:py-6" ref={menuRef}>
 				<div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
 					<div className="flex items-center justify-between">
@@ -103,4 +118,3 @@ export default function Navigation() {
 		</header>
 	);
 }
-

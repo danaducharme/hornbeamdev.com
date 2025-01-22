@@ -16,8 +16,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-	title: "JEA BizDev",
-	description: "Strategic advisory services for groundbreaking partnerships across North America, Europe, and Asia.",
+	title: "Hornbeam Collective Consulting",
+	description: "Strategic advisory services for groundbreaking partnerships.",
 };
 
 export default function RootLayout({

@@ -62,7 +62,7 @@ export default function Navigation() {
 						<div className="flex items-center">
 							<Dna className="h-8 w-8 text-blue-600 mr-3" />
 							<a href="/" className="text-2xl font-bold text-gray-800">
-								JEA BizDev Consulting
+								Hornbeam Collective Consulting
 							</a>
 						</div>
 						<div className="flex lg:hidden">

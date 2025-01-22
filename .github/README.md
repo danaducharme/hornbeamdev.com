@@ -1,13 +1,13 @@
-# JEA BizDev Consulting Website
+# Hornbeam Collective Consulting Website
 
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/-Framer%20Motion-0081C9?style=flat-square&logo=framer&logoColor=white)
 
-![JEA BizDev Consulting](assets/preview.png)
+![Hornbeam Collective Consulting](assets/preview.png)
 
-The JEA BizDev Consulting Website is the front-facing website for JEA BizDev Consulting, a consulting firm that specializes in business development and strategic outreach for in- and -out licensing in the biotech industry.
+The Hornbeam Collective Consulting Website is the front-facing website for Hornbeam Collective Consulting, a consulting firm that specializes in business development and strategic outreach for in- and -out licensing in the biotech industry.
 
 ## Getting Started
 

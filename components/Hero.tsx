@@ -196,7 +196,7 @@ export function Hero() {
 						<Card className="bg-white rounded-lg shadow-lg">
 							<CardContent className="p-6">
 								<p className="text-gray-700 mb-6">
-									JEA BizDev Consulting offers strategic advisory services
+									Hornbeam Collective Consulting offers strategic advisory services
 									specializing in identifying, structuring, negotiating, and executing partnerships
 									across North America, Europe, and Asia.
 								</p>

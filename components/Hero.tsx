@@ -144,15 +144,15 @@ export function Hero() {
 								<div className="flex items-center mb-4">
 									<Image
 										src={avatar}
-										alt="John Adamou"
+										alt="Dana Ducharme"
 										className="w-24 h-24 rounded-full object-cover mr-6"
 										width={96}
 										height={96}
 									/>
 									<div>
-										<h3 className="text-xl font-semibold text-gray-800">John Adamou, MS, MBA</h3>
-										<p className="text-gray-600">President and Managing Director</p>
-										<a href="https://www.linkedin.com/in/john-adamou-6182668" target="_blank"
+										<h3 className="text-xl font-semibold text-gray-800">Dana Ducharme</h3>
+										<p className="text-gray-600">Managing Director</p>
+										<a href="https://www.linkedin.com/in/danaducharme" target="_blank"
 										   rel="noopener noreferrer" className="hover:text-emerald-800 hover:underline">
 											<p className="flex items-center flex-row gap-1">
 												<LinkedInLogoIcon className="block"/>
@@ -162,24 +162,19 @@ export function Hero() {
 									</div>
 								</div>
 								<p className="text-gray-700 mb-4">
-									John is a seasoned executive with <strong>25+ years of experience</strong> in the
-									biotech and pharma
-									industries, specializing in strategy and business development. He has
-									successfully{' '}
-									<strong>executed 80+ partnerships</strong> across multiple continents, resulting
-									in <strong>over $20 billion</strong>{' '}
-									in transaction value. He has expertise across the entire BD value chain, including
-									strategy, search and evaluation, deal structuring, transaction negotiation, and
-									alliance management.
+								    Dana is a result-driven engineering leader with <strong>20+ years of experience</strong> driving technical vision across multiple
+									industries, specializing in strategy and business development. 
+									He has successfully{' '} led <strong>hundreds</strong> of large-scale enterprise projects and innovative initiatives involving all aspects of development.
+									He has a proven track record of driving long-lasting organizational improvements.
 								</p>
 								<ul className="space-y-2 text-sm">
 									<li className="flex items-center">
 										<LightBulbIcon className="h-5 w-5 text-emerald-800 mr-2"/>
-										<span>Expertise in diverse deal structures</span>
+										<span>Expertise in innovative thinking and rapid prototyping</span>
 									</li>
 									<li className="flex items-center">
 										<GlobeAltIcon className="h-5 w-5 text-emerald-800 mr-2"/>
-										<span>Cross-border transaction specialist</span>
+										<span>Global develpment and team building</span>
 									</li>
 									<li className="flex items-center">
 										<PuzzlePieceIcon className="h-5 w-5 text-emerald-800 mr-2"/>
@@ -187,7 +182,7 @@ export function Hero() {
 									</li>
 									<li className="flex items-center">
 										<CurrencyDollarIcon className="h-5 w-5 text-emerald-800 mr-2"/>
-										<span>Strategic advisor to biotech & biopharma companies</span>
+										<span>Strategic advisor to software and technology companies</span>
 									</li>
 								</ul>
 							</CardContent>

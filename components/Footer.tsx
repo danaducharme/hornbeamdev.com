@@ -17,7 +17,7 @@ export default function Footer() {
 					<a href="/Disclaimer.pdf" target="_blank" className="hover:text-emerald-600 transition-colors text-xs">
 						Disclaimer
 					</a>
-					<Link href="https://www.linkedin.com/company/jea-bizdev-consulting-llc"
+					<Link href="https://www.linkedin.com/company/hornbeam-collective"
 						  className="hover:text-emerald-600 transition-colors text-xs" target="_blank">
 						<Linkedin size={16}/>
 						<span className="sr-only">LinkedIn</span>

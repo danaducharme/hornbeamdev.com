@@ -133,7 +133,7 @@ export function Contact() {
                         <div className="space-y-4">
                             <h3 className="text-xl font-semibold text-gray-800 mb-2">Want to connect?</h3>
                             <Link
-                                href="https://www.linkedin.com/company/jea-bizdev-consulting-llc"
+                                href="https://www.linkedin.com/company/hornbeam-collective"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

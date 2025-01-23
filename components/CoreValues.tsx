@@ -32,7 +32,7 @@ export function CoreValues() {
 					transition={{ duration: 0.8 }}
 					className="text-center mb-16"
 				>
-					<h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-emerald-800 mb-4">
+					<h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-700 mb-4">
 						Our Core Values
 					</h2>
 					<p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto">

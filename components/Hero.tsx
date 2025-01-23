@@ -13,8 +13,8 @@ import {
 import {Card, CardContent} from "@/components/ui/card";
 import Image from "next/image";
 
-import avatar from '../public/avatar.png';
-import deal from '../public/deal.jpg';
+import avatar from '../public/avatar.jpg';
+import deal from '../public/handshake.jpeg';
 
 import {ScrollSuggestion} from "@/components/ui/ScrollSuggestion";
 import {Link} from "react-scroll";

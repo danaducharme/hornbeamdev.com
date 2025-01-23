@@ -19,7 +19,7 @@ export function Results() {
 		<Element name="results" className="bg-white py-16 md:py-24">
 			<div className="container mx-auto px-4">
 				<motion.h2
-					className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-emerald-800 mb-4 text-center"
+					className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-700 mb-4 text-center"
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ delay: 0.2, duration: 0.8 }}

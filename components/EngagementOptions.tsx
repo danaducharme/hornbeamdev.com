@@ -44,7 +44,7 @@ export function EngagementOptions() {
 			>
 				<div className="flex flex-col gap-12 justify-center items-center text-center">
 					<motion.div className="space-y-4" variants={itemVariants}>
-						<h2 className="text-3xl font-bold tracking-tighter md:text-5xl text-emerald-800 mb-4">
+						<h2 className="text-3xl font-bold tracking-tighter md:text-5xl text-gray-700 mb-4">
 							Flexible Engagement Options
 						</h2>
 						<p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-zinc-400">

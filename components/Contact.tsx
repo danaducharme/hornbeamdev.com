@@ -123,7 +123,7 @@ export function Contact() {
 								<path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
 							</svg>
 						</div>
-						<h2 className="text-4xl font-bold tracking-tighter text-emerald-800">
+						<h2 className="text-4xl font-bold tracking-tighter text-gray-700">
 							Let&apos;s Partner Together
 						</h2>
 						<p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">

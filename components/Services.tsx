@@ -12,9 +12,9 @@ const services = [
 	{
 		name: 'Deal Benchmarking & Deal Sheet Summaries', description: <>
 			In-depth benchmarking analysis for informed decision-making and deal sheet summaries (examples include: <a
-			href="/deal-summaries/ImmuNext & Lilly Mar 27 2019.pdf" target="_blank" className="text-blue-500 underline">1</a>, <a
-			href="/deal-summaries/Affibody & Alexion Mar 20 2019.pdf" target="_blank" className="text-blue-500 underline">2</a>, <a
-			href="/deal-summaries/Voyager and AbbVie Feb 22 2019.pdf" target="_blank" className="text-blue-500 underline">3</a>).
+			href="/deal-summaries/ImmuNext & Lilly Mar 27 2019.pdf" target="_blank" className="text-emerald-600 underline">1</a>, <a
+			href="/deal-summaries/Affibody & Alexion Mar 20 2019.pdf" target="_blank" className="text-emerald-600 underline">2</a>, <a
+			href="/deal-summaries/Voyager and AbbVie Feb 22 2019.pdf" target="_blank" className="text-emerald-600 underline">3</a>).
 		</>, icon: Search
 	},
 	{
@@ -63,7 +63,7 @@ export function Services() {
 					animate={{opacity: 1, y: 0}}
 					transition={{duration: 0.8}}
 				>
-					<h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-blue-600 mb-4 text-center">
+					<h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-700 mb-4 text-center">
 						Professional Services
 					</h2>
 					<p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center mb-16">
@@ -79,8 +79,8 @@ export function Services() {
 								transition={{duration: 0.5, delay: index * 0.1}}
 							>
 								<div className="flex items-center mb-4">
-									<div className="bg-blue-100 rounded-full p-3 mr-4">
-										<service.icon className="h-6 w-6 text-blue-600"/>
+									<div className="bg-emerald-100 rounded-full p-3 mr-4">
+										<service.icon className="h-6 w-6 text-emerald-800"/>
 									</div>
 									<h3 className="text-xl font-semibold text-gray-800">{service.name}</h3>
 								</div>

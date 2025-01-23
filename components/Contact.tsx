@@ -106,7 +106,7 @@ export function Contact() {
 			>
 				<div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-start">
 					<div className="space-y-4">
-						<div className="inline-block rounded-lg bg-blue-600 p-2 text-white">
+						<div className="inline-block rounded-lg bg-emerald-800 p-2 text-white">
 							<svg
 								className=" h-6 w-6"
 								fill="none"
@@ -123,7 +123,7 @@ export function Contact() {
 								<path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
 							</svg>
 						</div>
-						<h2 className="text-4xl font-bold tracking-tighter text-blue-600">
+						<h2 className="text-4xl font-bold tracking-tighter text-emerald-800">
 							Let&apos;s Partner Together
 						</h2>
 						<p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -216,7 +216,7 @@ export function Contact() {
 							<Button
 								type="submit"
 								disabled={loading}
-								className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-colors duration-300"
+								className="w-full bg-emerald-800 hover:bg-emerald-900 text-white transition-colors duration-300"
 							>
 								{loading ? "Sending..." : "Send Message"}
 							</Button>

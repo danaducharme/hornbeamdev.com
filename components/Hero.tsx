@@ -22,12 +22,19 @@ import {LinkedInLogoIcon} from "@radix-ui/react-icons";
 
 export function Hero() {
 	return (
-		<section className="relative bg-gradient-to-br from-gray-50 to-blue-50 pt-36 pb-24 sm:pb-32">
+		<section className="relative bg-gradient-to-br from-gray-50 to-emerald-50 pt-36 pb-24 sm:pb-32">
 			<div className="absolute inset-0 overflow-hidden">
 				<svg className="absolute left-0 top-0 h-full w-full" xmlns="http://www.w3.org/2000/svg"
 					 viewBox="0 0 1440 320" preserveAspectRatio="none">
-					<path fill="#3B82F6" fillOpacity="0.05"
-						  d="M0,96L48,106.7C96,117,192,139,288,138.7C384,139,480,117,576,117.3C672,117,768,139,864,138.7C960,139,1056,117,1152,106.7C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+					<g mask="url(&quot;#SvgjsMask1013&quot;)" fill="none">
+        <path d="M 0,25 C 96,69.8 288,245.8 480,249 C 672,252.2 768,39.8 960,41 C 1152,42.2 1344,212.2 1440,255L1440 320L0 320z" fill="rgba(123, 142, 11, .05)"></path>
+        <path d="M 0,113 C 96,144.6 288,278.4 480,271 C 672,263.6 768,66.4 960,76 C 1152,85.6 1344,270.4 1440,319L1440 320L0 320z" fill="rgba(91, 110, 0, .025)"></path>
+    </g>
+    <defs>
+        <mask id="SvgjsMask1013">
+            <rect width="1440" height="320" fill="#ffffff"></rect>
+        </mask>
+    </defs>
 				</svg>
 			</div>
 			<div className="container mx-auto px-6 relative">
@@ -40,7 +47,7 @@ export function Hero() {
 					>
 						<h1 className="text-5xl font-extrabold text-gray-900 leading-tight mb-6">
 							We optimize business development success for{' '}
-							<span className="text-blue-600">
+							<span className="text-gray-900">
 								Biotech & Biopharma Companies
                   			</span>
 						</h1>
@@ -53,7 +60,7 @@ export function Hero() {
 								to="contact"
 								smooth={true}
 								duration={500}
-								className="cursor-pointer bg-blue-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-blue-700 transition duration-300 inline-flex items-center justify-center text-lg"
+								className="cursor-pointer bg-emerald-800 text-white px-8 py-4 rounded-full font-semibold hover:bg-emerald-900 transition duration-300 inline-flex items-center justify-center text-lg"
 							>
 								Get in Touch
 								<motion.div
@@ -73,7 +80,7 @@ export function Hero() {
 								to="services"
 								smooth={true}
 								duration={500}
-								className="cursor-pointer bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition duration-300 inline-flex items-center justify-center text-lg border-2 border-blue-600"
+								className="cursor-pointer bg-white text-emerald-800 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition duration-300 inline-flex items-center justify-center text-lg border-2 border-emerald-800"
 							>
 								Our Services
 							</Link>
@@ -99,7 +106,7 @@ export function Hero() {
 							transition={{duration: 0.5, delay: 0.5}}
 						>
 							<div className="flex items-center space-x-2">
-								<Network className="h-8 w-8 text-blue-600"/>
+								<Network className="h-8 w-8 text-emerald-800"/>
 								<div>
 									<p className="text-sm font-semibold text-gray-800">Industry Connections &
 										Outreach</p>
@@ -115,7 +122,7 @@ export function Hero() {
 							transition={{duration: 0.5, delay: 0.7}}
 						>
 							<div className="flex items-center space-x-2">
-								<FileText className="h-8 w-8 text-blue-600"/>
+								<FileText className="h-8 w-8 text-emerald-800"/>
 								<div>
 									<p className="text-sm font-semibold text-gray-800">Deal Structuring Advice</p>
 									<p className="text-xs text-gray-500">Crafting optimal terms</p>
@@ -146,7 +153,7 @@ export function Hero() {
 										<h3 className="text-xl font-semibold text-gray-800">John Adamou, MS, MBA</h3>
 										<p className="text-gray-600">President and Managing Director</p>
 										<a href="https://www.linkedin.com/in/john-adamou-6182668" target="_blank"
-										   rel="noopener noreferrer" className="hover:text-blue-600 hover:underline">
+										   rel="noopener noreferrer" className="hover:text-emerald-800 hover:underline">
 											<p className="flex items-center flex-row gap-1">
 												<LinkedInLogoIcon className="block"/>
 												LinkedIn
@@ -167,19 +174,19 @@ export function Hero() {
 								</p>
 								<ul className="space-y-2 text-sm">
 									<li className="flex items-center">
-										<LightBulbIcon className="h-5 w-5 text-blue-600 mr-2"/>
+										<LightBulbIcon className="h-5 w-5 text-emerald-800 mr-2"/>
 										<span>Expertise in diverse deal structures</span>
 									</li>
 									<li className="flex items-center">
-										<GlobeAltIcon className="h-5 w-5 text-blue-600 mr-2"/>
+										<GlobeAltIcon className="h-5 w-5 text-emerald-800 mr-2"/>
 										<span>Cross-border transaction specialist</span>
 									</li>
 									<li className="flex items-center">
-										<PuzzlePieceIcon className="h-5 w-5 text-blue-600 mr-2"/>
+										<PuzzlePieceIcon className="h-5 w-5 text-emerald-800 mr-2"/>
 										<span>Proven track record of high-value partnerships</span>
 									</li>
 									<li className="flex items-center">
-										<CurrencyDollarIcon className="h-5 w-5 text-blue-600 mr-2"/>
+										<CurrencyDollarIcon className="h-5 w-5 text-emerald-800 mr-2"/>
 										<span>Strategic advisor to biotech & biopharma companies</span>
 									</li>
 								</ul>
@@ -201,18 +208,18 @@ export function Hero() {
 									across North America, Europe, and Asia.
 								</p>
 								<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-									<div className="bg-blue-50 p-4 rounded-lg">
+									<div className="bg-emerald-50 p-4 rounded-lg">
 										<div className="flex items-center mb-3">
-											<UserGroupIcon className="h-6 w-6 text-blue-600 mr-2"/>
+											<UserGroupIcon className="h-6 w-6 text-emerald-800 mr-2"/>
 											<h3 className="font-semibold text-gray-800">Comprehensive Services</h3>
 										</div>
 										<p className="text-sm text-gray-600">Business development and partnering
 											activities tailored to your needs with a strong focus on in- and
 											out-licensing.</p>
 									</div>
-									<div className="bg-blue-50 p-4 rounded-lg">
+									<div className="bg-emerald-50 p-4 rounded-lg">
 										<div className="flex items-center mb-3">
-											<GlobeAltIcon className="h-6 w-6 text-blue-600 mr-2"/>
+											<GlobeAltIcon className="h-6 w-6 text-emerald-800 mr-2"/>
 											<h3 className="font-semibold text-gray-800">Global Reach</h3>
 										</div>
 										<p className="text-sm text-gray-600">
@@ -220,29 +227,29 @@ export function Hero() {
 											(examples
 											include:{' '}
 											<a href="/deal-summaries/Elevation and CSPC June 2022.pdf"
-											   className="text-blue-500 underline">1</a>,
+											   className="text-emerald-600 underline">1</a>,
 											{' '}
 											<a href="/deal-summaries/Corbus and CSPC Feb 14 2023.pdf"
-											   className="text-blue-500 underline">2</a>,
+											   className="text-emerald-600 underline">2</a>,
 											{' '}
 											<a href="/deal-summaries/Assembly and BeiGene Jul 20 2020.pdf"
-											   className="text-blue-500 underline">3</a>,
+											   className="text-emerald-600 underline">3</a>,
 											{' and '}
 											<a href="/deal-summaries/Leap TX and BeiGene Jan 2020.pdf"
-											   className="text-blue-500 underline">4</a>).
+											   className="text-emerald-600 underline">4</a>).
 										</p>
 									</div>
-									<div className="bg-blue-50 p-4 rounded-lg">
+									<div className="bg-emerald-50 p-4 rounded-lg">
 										<div className="flex items-center mb-3">
-											<PuzzlePieceIcon className="h-6 w-6 text-blue-600 mr-2"/>
+											<PuzzlePieceIcon className="h-6 w-6 text-emerald-800 mr-2"/>
 											<h3 className="font-semibold text-gray-800">Diverse Deal Structures</h3>
 										</div>
 										<p className="text-sm text-gray-600">Platform technology agreements,
 											collaborations, co-development alliances, asset acquisitions, and more.</p>
 									</div>
-									<div className="bg-blue-50 p-4 rounded-lg">
+									<div className="bg-emerald-50 p-4 rounded-lg">
 										<div className="flex items-center mb-3">
-											<CurrencyDollarIcon className="h-6 w-6 text-blue-600 mr-2"/>
+											<CurrencyDollarIcon className="h-6 w-6 text-emerald-800 mr-2"/>
 											<h3 className="font-semibold text-gray-800">Value Creation</h3>
 										</div>
 										<p className="text-sm text-gray-600">Proven track record of high-value

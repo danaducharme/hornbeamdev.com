@@ -1,6 +1,6 @@
 'use client';
 
-import { Menu, X, Dna, ExternalLink } from 'lucide-react';
+import { Menu, X, Leaf, ExternalLink } from 'lucide-react';
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-scroll';
 import { Button } from "@/components/ui/button";
@@ -60,7 +60,7 @@ export default function Navigation() {
 				<div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
 					<div className="flex items-center justify-between">
 						<div className="flex items-center">
-							<Dna className="h-8 w-8 text-blue-600 mr-3" />
+							<Leaf className="h-8 w-8 text-emerald-800 mr-3" />
 							<a href="/" className="text-2xl font-bold text-gray-800">
 								Hornbeam Collective Consulting
 							</a>
@@ -104,7 +104,7 @@ export default function Navigation() {
 										to={item.href}
 										smooth={true}
 										duration={500}
-										className="text-md text-gray-700 hover:text-blue-600 hover:underline cursor-pointer"
+										className="text-md text-gray-700 hover:text-emerald-800 hover:underline cursor-pointer"
 										onClick={closeMenu}
 									>
 										{item.name}

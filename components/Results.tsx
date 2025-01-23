@@ -19,7 +19,7 @@ export function Results() {
 		<Element name="results" className="bg-white py-16 md:py-24">
 			<div className="container mx-auto px-4">
 				<motion.h2
-					className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-blue-600 mb-4 text-center"
+					className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-emerald-800 mb-4 text-center"
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ delay: 0.2, duration: 0.8 }}
@@ -43,8 +43,8 @@ export function Results() {
 							{...fadeInUp}
 							transition={{delay: index * 0.2, ...fadeInUp.transition}}
 						>
-							<div className="flex justify-center items-center mx-auto text-center w-12 h-12 bg-blue-100 rounded-full mb-4">
-								<stat.icon className="w-8 h-8 text-blue-600"/>
+							<div className="flex justify-center items-center mx-auto text-center w-12 h-12 bg-emerald-100 rounded-full mb-4">
+								<stat.icon className="w-8 h-8 text-emerald-800"/>
 							</div>
 							<motion.h3
 								className="text-4xl font-bold text-gray-800 mb-2"

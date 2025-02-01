@@ -1,6 +1,6 @@
 "use client";
 
-import { Clock, Calendar, FileText, BarChart } from "lucide-react";
+import { Clock, Calendar, FileText, BarChart } from "lucide-react"; // Import the icons
 import { motion, Variants } from "framer-motion";
 import { Element } from "react-scroll";
 import React from "react";

@@ -32,22 +32,7 @@ const services = [
 		description: 'Leveraging our vast network for your success.',
 		icon: Network
 	},
-/*	{
-		name: 'Due Diligence Management',
-		description: 'Lead and support thorough evaluation for potential partnerships.',
-		icon: FileCheck
-	},
 	{
-		name: 'Deal Structuring Advice',
-		description: 'Crafting optimal terms for successful collaborations.',
-		icon: FileText
-	},
-	{
-		name: 'Contract Negotiation & Closure',
-		description: 'Securing favorable agreements and seamless integration.',
-		icon: Handshake
-	},
-*/	{
 		name: 'Full Partnering Process Oversight',
 		description: 'Comprehensive end-to-end management of your partnership activities.',
 		icon: PieChart

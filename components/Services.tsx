@@ -10,6 +10,11 @@ const services = [
 		icon: Briefcase
 	},
 	{
+		name: 'Business Development Operations Support',
+		description: 'Streamlining your processes for optimal efficiency.',
+		icon: Building
+	},
+	{
 		name: 'Deal Benchmarking & Deal Sheet Summaries', description: <>
 			In-depth benchmarking analysis for informed decision-making and deal sheet summaries (examples include: <a
 			href="/deal-summaries/ImmuNext & Lilly Mar 27 2019.pdf" target="_blank" className="text-emerald-600 underline">1</a>, <a
@@ -27,12 +32,7 @@ const services = [
 		description: 'Leveraging our vast network for your success.',
 		icon: Network
 	},
-	{
-		name: 'Business Development Operations Support',
-		description: 'Streamlining your processes for optimal efficiency.',
-		icon: Building
-	},
-	{
+/*	{
 		name: 'Due Diligence Management',
 		description: 'Lead and support thorough evaluation for potential partnerships.',
 		icon: FileCheck
@@ -47,7 +47,7 @@ const services = [
 		description: 'Securing favorable agreements and seamless integration.',
 		icon: Handshake
 	},
-	{
+*/	{
 		name: 'Full Partnering Process Oversight',
 		description: 'Comprehensive end-to-end management of your partnership activities.',
 		icon: PieChart

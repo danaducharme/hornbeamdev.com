@@ -46,14 +46,15 @@ export function Hero() {
 						transition={{duration: 0.8}}
 					>
 						<h1 className="text-5xl font-extrabold text-gray-900 leading-tight mb-6">
-							We optimize business development success for{' '}
+							Elevate your business with robust custom software{' '}
 							<span className="text-gray-900">
-								Biotech & Biopharma Companies
+								and Business Development Services
                   			</span>
 						</h1>
 						<p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-2xl">
-							Strategic advisory services for groundbreaking partnerships across North America, Europe,
-							and Asia with focus on cross-border deals involving China.
+						We are at the forefront of transforming the digital landscape. Our goal is to drive innovation, turning visionary concepts
+						into engaging, user-focused software solutions that exceed expectations.
+
 						</p>
 						<div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
 							<Link

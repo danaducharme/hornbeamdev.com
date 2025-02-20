@@ -198,7 +198,7 @@ export function Hero() {
 						<Card className="bg-white rounded-lg shadow-lg">
 							<CardContent className="p-6">
 								<p className="text-gray-700 mb-6">
-									Hornbeam Collective Consulting offers strategic advisory services
+									Hornbeam Collective offers strategic advisory services
 									specializing in identifying, structuring, negotiating, and executing partnerships
 									across North America, Europe, and Asia.
 								</p>
@@ -206,41 +206,31 @@ export function Hero() {
 									<div className="bg-emerald-50 p-4 rounded-lg">
 										<div className="flex items-center mb-3">
 											<UserGroupIcon className="h-6 w-6 text-emerald-800 mr-2"/>
-											<h3 className="font-semibold text-gray-800">Comprehensive Services</h3>
+											<h3 className="font-semibold text-gray-800">Comprehensive Business Services</h3>
 										</div>
 										<p className="text-sm text-gray-600">Business development and partnering
-											activities tailored to your needs with a strong focus on in- and
-											out-licensing.</p>
-									</div>
-									<div className="bg-emerald-50 p-4 rounded-lg">
-										<div className="flex items-center mb-3">
-											<GlobeAltIcon className="h-6 w-6 text-emerald-800 mr-2"/>
-											<h3 className="font-semibold text-gray-800">Global Reach</h3>
-										</div>
-										<p className="text-sm text-gray-600">
-											Expertise in cross-border transactions, including deals involving China
-											(examples
-											include:{' '}
-											<a href="/deal-summaries/Elevation and CSPC June 2022.pdf"
-											   className="text-emerald-600 underline">1</a>,
-											{' '}
-											<a href="/deal-summaries/Corbus and CSPC Feb 14 2023.pdf"
-											   className="text-emerald-600 underline">2</a>,
-											{' '}
-											<a href="/deal-summaries/Assembly and BeiGene Jul 20 2020.pdf"
-											   className="text-emerald-600 underline">3</a>,
-											{' and '}
-											<a href="/deal-summaries/Leap TX and BeiGene Jan 2020.pdf"
-											   className="text-emerald-600 underline">4</a>).
-										</p>
+											activities tailored to your needs focusing on bringing your vision to life.</p>
 									</div>
 									<div className="bg-emerald-50 p-4 rounded-lg">
 										<div className="flex items-center mb-3">
 											<PuzzlePieceIcon className="h-6 w-6 text-emerald-800 mr-2"/>
-											<h3 className="font-semibold text-gray-800">Diverse Deal Structures</h3>
+											<h3 className="font-semibold text-gray-800">Software Consulting Services</h3>
 										</div>
-										<p className="text-sm text-gray-600">Platform technology agreements,
-											collaborations, co-development alliances, asset acquisitions, and more.</p>
+										<p className="text-sm text-gray-600">
+										We assess your business requirements, design the software architecture, 
+										and assist you in maximizing the value derived from its development. 
+										Our committed team of specialists utilizes their technical expertise to 
+										provide customized software solutions that enhance efficiency and productivity.
+										</p>
+									</div>
+									<div className="bg-emerald-50 p-4 rounded-lg">
+										<div className="flex items-center mb-3">
+											<GlobeAltIcon className="h-6 w-6 text-emerald-800 mr-2"/>
+											<h3 className="font-semibold text-gray-800">Web App and API Development</h3>
+										</div>
+										<p className="text-sm text-gray-600">Production ready web apps, robust API development and integration 
+											services for your software applications to seamlessly connect with your
+											customers and vendor partners to drive better revenues.</p>
 									</div>
 									<div className="bg-emerald-50 p-4 rounded-lg">
 										<div className="flex items-center mb-3">

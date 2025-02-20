@@ -64,8 +64,8 @@ export default function Navigation() {
 							<Image
 								src={logo}
 								alt="Hornbeam Collective LLC"
-								width={24}
-								height={24}
+								width={30}
+								height={30}
 								className="mr-2"
 							/>
 							<a href="/" className="text-2xl font-bold text-gray-800">

@@ -208,7 +208,7 @@ export function Hero() {
 											<PuzzlePieceIcon className="h-6 w-6 text-emerald-800 mr-2"/>
 											<h3 className="font-semibold text-gray-800">Software Consulting Services</h3>
 										</div>
-										<p className="text-sm text-gray-600">Expert support through the entire Sopftware Develpment Life Cycle.
+										<p className="text-sm text-gray-600">Expert support through the entire Software Develpment Life Cycle.
 										</p>
 									</div>
 									<div className="bg-emerald-50 p-4 rounded-lg">

@@ -225,7 +225,7 @@ export function Hero() {
 											<h3 className="font-semibold text-gray-800">Comprehensive Business Services</h3>
 										</div>
 										<p className="text-sm text-gray-600">Business development and partnering
-											activities tailored to your needs.</p>
+											activities tailored to your needs focusing on bringing your vision to life.</p>
 									</div>
 									<div className="bg-emerald-50 p-4 rounded-lg">
 										<div className="flex items-center mb-3">

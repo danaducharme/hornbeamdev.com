@@ -4,6 +4,7 @@ import { Menu, X, Leaf, ExternalLink } from 'lucide-react';
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-scroll';
 import { Button } from "@/components/ui/button";
+import Image from 'next/image';
 import logo from '../public/HC-logo.png';
 
 const navigation = [
@@ -60,13 +61,12 @@ export default function Navigation() {
 				<div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
 					<div className="flex items-center justify-between">
 						<div className="flex items-center">
-						<Image
-							src={logo}
-							alt="Hornbeam Collective LLC"
-							width={24}
-							height={24}
-						/>
-							<Leaf className="h-8 w-8 text-emerald-800 mr-3" />
+							<Image
+								src={logo}
+								alt="Hornbeam Collective LLC"
+								width={24}
+								height={24}
+							/>
 							<a href="/" className="text-2xl font-bold text-gray-800">
 								Hornbeam Collective Consulting
 							</a>

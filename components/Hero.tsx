@@ -109,10 +109,9 @@ export function Hero() {
 							<div className="flex items-center space-x-2">
 								<Network className="h-8 w-8 text-emerald-800"/>
 								<div>
-									<p className="text-sm font-semibold text-gray-800">Industry Connections &
+									<p className="text-sm font-semibold text-gray-800">Strategic Partnerships &
 										Outreach</p>
-									<p className="text-xs text-gray-500">Leveraging our vast network for your
-										success</p>
+									<p className="text-xs text-gray-500">Utilizing our extensive network to ensure your success</p>
 								</div>
 							</div>
 						</motion.div>
@@ -125,8 +124,8 @@ export function Hero() {
 							<div className="flex items-center space-x-2">
 								<FileText className="h-8 w-8 text-emerald-800"/>
 								<div>
-									<p className="text-sm font-semibold text-gray-800">Deal Structuring Advice</p>
-									<p className="text-xs text-gray-500">Crafting optimal terms</p>
+									<p className="text-sm font-semibold text-gray-800">Streamline Development Cycle</p>
+									<p className="text-xs text-gray-500">Crafting optimal processes and design</p>
 								</div>
 							</div>
 						</motion.div>

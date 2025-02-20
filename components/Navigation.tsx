@@ -66,7 +66,7 @@ export default function Navigation() {
 								alt="Hornbeam Collective LLC"
 								width={24}
 								height={24}
-								className="mr-5"
+								className="mr-2"
 							/>
 							<a href="/" className="text-2xl font-bold text-gray-800">
 								Hornbeam Collective Consulting

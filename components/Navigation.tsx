@@ -1,6 +1,6 @@
 'use client';
 
-import { Menu, X, Leaf, ExternalLink } from 'lucide-react';
+import { Menu, X, ExternalLink } from 'lucide-react';
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-scroll';
 import { Button } from "@/components/ui/button";

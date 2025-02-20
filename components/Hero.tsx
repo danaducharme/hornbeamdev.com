@@ -208,11 +208,8 @@ export function Hero() {
 											<PuzzlePieceIcon className="h-6 w-6 text-emerald-800 mr-2"/>
 											<h3 className="font-semibold text-gray-800">Software Consulting Services</h3>
 										</div>
-										<p className="text-sm text-gray-600">
-										We assess your business requirements, design the software architecture, 
-										and assist you in maximizing the value derived from its development. 
-										Our committed team of specialists utilizes their technical expertise to 
-										provide customized software solutions that enhance efficiency and productivity.
+										<p className="text-sm text-gray-600">We assess your business requirements, design the software architecture, 
+										and assist you in maximizing the value derived from its development.
 										</p>
 									</div>
 									<div className="bg-emerald-50 p-4 rounded-lg">
@@ -221,8 +218,7 @@ export function Hero() {
 											<h3 className="font-semibold text-gray-800">Web App and API Development</h3>
 										</div>
 										<p className="text-sm text-gray-600">Production ready web apps, robust API development and integration 
-											services for your software applications to seamlessly connect with your
-											customers and vendor partners to drive better revenues.</p>
+											services.</p>
 									</div>
 									<div className="bg-emerald-50 p-4 rounded-lg">
 										<div className="flex items-center mb-3">

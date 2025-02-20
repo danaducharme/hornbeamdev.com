@@ -10,11 +10,9 @@ const services = [
 		icon: Briefcase
 	},
 	{
-		name: 'Deal Benchmarking & Deal Sheet Summaries', description: <>
-			In-depth benchmarking analysis for informed decision-making and deal sheet summaries (examples include: <a
-			href="/deal-summaries/ImmuNext & Lilly Mar 27 2019.pdf" target="_blank" className="text-emerald-600 underline">1</a>, <a
-			href="/deal-summaries/Affibody & Alexion Mar 20 2019.pdf" target="_blank" className="text-emerald-600 underline">2</a>, <a
-			href="/deal-summaries/Voyager and AbbVie Feb 22 2019.pdf" target="_blank" className="text-emerald-600 underline">3</a>).
+		name: 'Software Benchmarking & Performance Summaries', description: <>
+			Our committed team of specialists utilizes their technical expertise to 
+			provide customized software solutions that enhance efficiency and productivity.
 		</>, icon: Search
 	},
 	{

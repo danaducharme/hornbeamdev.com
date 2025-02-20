@@ -205,14 +205,6 @@ export function Hero() {
 								<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 									<div className="bg-emerald-50 p-4 rounded-lg">
 										<div className="flex items-center mb-3">
-											<UserGroupIcon className="h-6 w-6 text-emerald-800 mr-2"/>
-											<h3 className="font-semibold text-gray-800">Comprehensive Business Services</h3>
-										</div>
-										<p className="text-sm text-gray-600">Business development and partnering
-											activities tailored to your needs focusing on bringing your vision to life.</p>
-									</div>
-									<div className="bg-emerald-50 p-4 rounded-lg">
-										<div className="flex items-center mb-3">
 											<PuzzlePieceIcon className="h-6 w-6 text-emerald-800 mr-2"/>
 											<h3 className="font-semibold text-gray-800">Software Consulting Services</h3>
 										</div>
@@ -231,6 +223,14 @@ export function Hero() {
 										<p className="text-sm text-gray-600">Production ready web apps, robust API development and integration 
 											services for your software applications to seamlessly connect with your
 											customers and vendor partners to drive better revenues.</p>
+									</div>
+									<div className="bg-emerald-50 p-4 rounded-lg">
+										<div className="flex items-center mb-3">
+											<UserGroupIcon className="h-6 w-6 text-emerald-800 mr-2"/>
+											<h3 className="font-semibold text-gray-800">Comprehensive Business Services</h3>
+										</div>
+										<p className="text-sm text-gray-600">Business development and partnering
+											activities tailored to your needs focusing on bringing your vision to life.</p>
 									</div>
 									<div className="bg-emerald-50 p-4 rounded-lg">
 										<div className="flex items-center mb-3">

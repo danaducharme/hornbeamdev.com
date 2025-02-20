@@ -16,7 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-	title: "Hornbeam Collective Consulting",
+	title: "Hornbeam Collective, LLC",
 	description: "Strategic advisory services for groundbreaking partnerships.",
 };
 

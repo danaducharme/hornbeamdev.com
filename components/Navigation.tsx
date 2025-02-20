@@ -69,7 +69,7 @@ export default function Navigation() {
 								className="mr-2"
 							/>
 							<a href="/" className="text-2xl font-bold text-gray-800">
-								Hornbeam Collective Consulting
+								Hornbeam Collective
 							</a>
 						</div>
 						<div className="flex lg:hidden">

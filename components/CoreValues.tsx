@@ -8,7 +8,7 @@ const coreValues = [
 	{
 		icon: <Handshake className="w-8 h-8 text-emerald-800" />,
 		title: "Strategic Collaboration",
-		description: "We foster meaningful connections that lead to groundbreaking deals."
+		description: "We foster meaningful connections that lead to groundbreaking results."
 	},
 	{
 		icon: <Lightbulb className="w-8 h-8 text-emerald-800" />,

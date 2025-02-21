@@ -10,9 +10,9 @@ export function Results() {
 	}
 
 	const stats = [
-		{ icon: BarChart2, value: '25+', label: 'Years in Healthcare Leadership' },
-		{ icon: Handshake, value: '80+', label: 'Partnerships Executed' },
-		{ icon: Globe, value: '$20B+', label: 'Total Partnership Value' }
+		{ icon: BarChart2, value: '20+', label: 'Years in Technology Leadership' },
+		{ icon: Handshake, value: '50+', label: 'Partnerships Executed' },
+		{ icon: Globe, value: '$5B+', label: 'Software Development Value' }
 	]
 
 	return (

@@ -1,54 +1,54 @@
 import {motion} from "framer-motion";
 import React from "react";
-import {Briefcase, Building, FileCheck, FileText, Handshake, Network, PieChart, Search, Users} from "lucide-react";
+import {Briefcase, Brain, BugOff, Code, ChartLine, Gauge, Rocket, Users, UserCheck} from "lucide-react";
 import {Element} from "react-scroll";
 
 const services = [
 	{
 		name: 'Strategic Guidance',
-		description: 'Expert advice to navigate strategic initiatives and business development activities.',
+		description: 'Expert advice to navigate strategic initiatives and business development activities. Streamlining your processes for optimal efficiency.',
 		icon: Briefcase
+	},
+	{
+		name: 'Full-Stack Software Consulting',
+		description: 'Leveraging our vast experience in End-to-end custom software development that transforms your vision into powerful, scalable solutions.',
+		icon: Code
+	},
+	{
+		name: 'Data Analytics',
+		description: 'Advanced analytics and insights that help you make data-driven decisions and identify opportunities.',
+		icon: ChartLine
 	},
 	{
 		name: 'Software Benchmarking & Performance Summaries', description: <>
 			Our committed team of specialists utilizes their technical expertise to 
 			provide customized software solutions that enhance efficiency and productivity.
-		</>, icon: Search
+		</>, icon: Gauge
+	},
+	{
+		name: 'Custom AI Solutions',
+		description: 'Customized artificial intelligence solutions crafted to meet the unique needs and goals of your business.',
+		icon: Brain
+	},
+	{
+		name: 'User Experience Design and Testing',
+		description: 'Intuitive, user-friendly solutions to drive seamless adoption and maximize impact.',
+		icon: UserCheck
+	},
+	{
+		name: 'Quality & Compliance Assurances',
+		description: 'Deliver the highest standards of quality and regulatory compliance.',
+		icon: BugOff
 	},
 	{
 		name: 'Partner Identification',
-		description: 'Connecting you with ideal collaborators in the industry.',
+		description: 'Connecting you with ideal collaborators to grow your business.',
 		icon: Users
-	},
-	{
-		name: 'Industry Connections & Outreach',
-		description: 'Leveraging our vast network for your success.',
-		icon: Network
 	},
 	{
 		name: 'Business Development Operations Support',
 		description: 'Streamlining your processes for optimal efficiency.',
-		icon: Building
-	},
-	{
-		name: 'Due Diligence Management',
-		description: 'Lead and support thorough evaluation for potential partnerships.',
-		icon: FileCheck
-	},
-	{
-		name: 'Deal Structuring Advice',
-		description: 'Crafting optimal terms for successful collaborations.',
-		icon: FileText
-	},
-	{
-		name: 'Contract Negotiation & Closure',
-		description: 'Securing favorable agreements and seamless integration.',
-		icon: Handshake
-	},
-	{
-		name: 'Full Partnering Process Oversight',
-		description: 'Comprehensive end-to-end management of your partnership activities.',
-		icon: PieChart
+		icon: Rocket
 	},
 ];
 

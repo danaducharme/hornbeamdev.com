@@ -1,13 +1,13 @@
 import {motion} from "framer-motion";
 import React from "react";
-import {Briefcase, Brain, BugOff, Code, ChartLine, Gauge, Rocket, Users, UserCheck} from "lucide-react";
+import {Brain, BugOff, Code, ChartLine, Gauge, Rocket, ShieldCheck, Users, UserCheck} from "lucide-react";
 import {Element} from "react-scroll";
 
 const services = [
 	{
 		name: 'Strategic Guidance',
 		description: 'Expert advice to navigate strategic initiatives and business development activities. Streamlining your processes for optimal efficiency.',
-		icon: Briefcase
+		icon: Rocket
 	},
 	{
 		name: 'Full-Stack Software Consulting',
@@ -41,14 +41,14 @@ const services = [
 		icon: BugOff
 	},
 	{
+		name: 'Data Security & Privacy',
+		description: 'We guarantee the safety and security of your data, offering you reassurance and confidence.',
+		icon: ShieldCheck
+	},
+	{
 		name: 'Partner Identification',
 		description: 'Connecting you with ideal collaborators to grow your business.',
 		icon: Users
-	},
-	{
-		name: 'Business Development Operations Support',
-		description: 'Streamlining your processes for optimal efficiency.',
-		icon: Rocket
 	},
 ];
 

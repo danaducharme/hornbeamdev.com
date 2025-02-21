@@ -2,7 +2,7 @@
 
 import React from "react";
 import {motion} from "framer-motion";
-import {ArrowRight, FileText, Network} from "lucide-react";
+import {ArrowRight, Network, RefreshCw} from "lucide-react";
 import {
 	CurrencyDollarIcon,
 	GlobeAltIcon,
@@ -122,7 +122,7 @@ export function Hero() {
 							transition={{duration: 0.5, delay: 0.7}}
 						>
 							<div className="flex items-center space-x-2">
-								<FileText className="h-8 w-8 text-emerald-800"/>
+								<RefreshCw className="h-8 w-8 text-emerald-800"/>
 								<div>
 									<p className="text-sm font-semibold text-gray-800">Streamline Development Cycle</p>
 									<p className="text-xs text-gray-500">Crafting optimal processes and design</p>

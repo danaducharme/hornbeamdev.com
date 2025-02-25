@@ -8,7 +8,7 @@ export default function Footer() {
 		<footer className="bg-emerald-50 text-black py-4">
 			<div className="container mx-auto px-5 flex flex-row justify-between items-center">
 				<div className="text-xs">
-					&copy; {currentYear} Hornbeam Collective Consulting, LLC.
+					&copy; {currentYear} Hornbeam Collective, LLC.
 				</div>
 				<div className="flex space-x-4">
 					<a href="/Privacy Policy.pdf" target="_blank" className="hover:text-emerald-600 transition-colors text-xs">
